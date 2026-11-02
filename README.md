@@ -28,7 +28,7 @@ kubectl port-forward service/frontend 8080:5000
 In a second terminal, use `curl.exe http://127.0.0.1:8080/healthz` and `curl.exe http://127.0.0.1:8080/api/status`, and take screenshots showing the successful responses and the page. Save them under `evidence/` and replace the environment-check image in the report with real Minikube evidence before submission.
 
 ## GitHub link
-GitHub repository: **ADD YOUR PUBLISHED REPOSITORY URL HERE**. Publish this folder to a GitHub repository and replace this line in both `README.md` and the report before submission. A repository cannot be published without a connected GitHub account/repository authorization.
+GitHub repository: https://github.com/adityakittad1/Kubernetes_Aditya
 
 ## Cleanup
 ```powershell
@@ -36,3 +36,5 @@ kubectl delete -f .\k8s\frontend.yaml
 kubectl delete -f .\k8s\backend.yaml
 minikube stop
 ```
+
+
