@@ -1,0 +1,14 @@
+DEVOPS ASSIGNMENT | LOCAL ENVIRONMENT CHECK
+Date: 03 November 2026
+
+PS> kubectl version --client=true
+Client Version: v1.34.1
+Kustomize Version: v5.7.1
+
+PS> minikube version
+Command not found on this computer.
+
+PS> docker version --format {{.Server.Version}}
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running
+
+Result: kubectl client is installed. Minikube is not installed; Docker engine is not running. No cluster deployment or pod/service output exists yet.
